@@ -1,0 +1,34 @@
+{
+	"name": "@chipzhang/tsconfig",
+	"version": "0.1.4",
+	"description": "A TypeScript shareable config featuring separate configs of Node.js and React environment",
+	"keywords": [
+		"typescript",
+		"tsconfig"
+	],
+	"homepage": "https://github.com/chipzhang/tsconfig#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chipzhang/tsconfig"
+	},
+	"bugs": {
+		"url": "https://github.com/chipzhang/tsconfig/issues"
+	},
+	"author": "Chip Zhang <zccoding@gmail.com> (https://github.com/chipzhang)",
+	"license": "AGPL-3.0-only",
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"tsconfig.*.json"
+	],
+	"scripts": {
+		"prettier": "prettier --write ."
+	},
+	"devDependencies": {
+		"@chipzhang/prettier-config": "^0.1.1",
+		"prettier": "2.3.0"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig.json",
+
+	"compilerOptions": {
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmitOnError": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "Node",
+		"newLine": "lf",
+		"skipLibCheck": true,
+		"assumeChangesOnlyAffectDirectDependencies": true
+	}
+}

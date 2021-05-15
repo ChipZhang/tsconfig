@@ -1,0 +1,17 @@
+{
+	"//": "for Node.js version 12+",
+	"$schema": "https://json.schemastore.org/tsconfig.json",
+
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"target": "ES2019",
+		"module": "CommonJS",
+		"lib": ["ES2019"],
+
+		"esModuleInterop": true,
+
+		"declaration": true,
+		"declarationMap": false,
+		"sourceMap": false
+	}
+}
