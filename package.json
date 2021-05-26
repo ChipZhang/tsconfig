@@ -1,6 +1,6 @@
 {
 	"name": "@chipzhang/tsconfig",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "A TypeScript shareable config featuring separate configs of Node.js and React environment",
 	"keywords": [
 		"typescript",
@@ -27,8 +27,13 @@
 	"scripts": {
 		"prettier": "prettier --write ."
 	},
+	"dependencies": {},
 	"devDependencies": {
-		"@chipzhang/prettier-config": "^0.1.1",
-		"prettier": "2.3.0"
+		"@chipzhang/prettier-config": "^0.1.2",
+		"prettier": "2.3.0",
+		"typescript": "4.2.4"
+	},
+	"peerDependencies": {
+		"typescript": "4.2.4"
 	}
 }

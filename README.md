@@ -1,12 +1,14 @@
 # A TypeScript shareable config featuring separate configs of Node.js and React environment
 
-## For Node.js
+## Overview
+
+### For Node.js
 
 If you extend the config for Node.js in your project,
 the config will set the target to `ES2019`, and it will produce declaration files when compiling.
 This config is for Node.js projects with Node.js version 12+.
 
-## For React
+### For React
 
 If you extend the config for React in your project,
 the config will set the target to `ES2020`, and it will preserve JSX syntax, not produce declaration files when compiling.
